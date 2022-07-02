@@ -3,14 +3,16 @@ the course of Artificial Intelligence studies at Wroclaw University of Science a
 The whole project was supported by the ministerial project AI Tech aiming to create an 
 education module for high-quality specialist in the field of AI.
 
+## Aim
+The main aim was to develop a new method to human-centric classification problem
+involving a highly subjective task.
 
+## A team
+![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.png)
 __Authors__: Michał Kajstura, Joanna Baran
 
 __Mentors__: professor Przemysław Kazienko, PhD. Jan Kocoń
 
-
-The main aim was to develop a new method to human-centric classification problem
-involving a highly subjective task.
 
 ## Short description
 Generalizing models are often unable to produce a personalized prediction for a individual user.
