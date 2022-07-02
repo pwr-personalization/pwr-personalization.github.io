@@ -1,6 +1,10 @@
 theme: jekyll-theme-cayman
 title: PerSent
 description: Personalized sentiment text classification
+show_downloads: true
 
 math_engine: mathjax
 markdown: GFM
+
+plugins:
+- jekyll-remote-theme
