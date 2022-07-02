@@ -1,3 +1,7 @@
+---
+usemathjax: true
+---
+
 The present work was carried out as part of a research project during 
 the course of Artificial Intelligence studies at Wroclaw University of Science and Technology. 
 The whole project was supported by the ministerial project AI Tech aiming to create an 
@@ -19,8 +23,8 @@ __Mentors__: professor Przemysław Kazienko, PhD. Jan Kocoń
 
 
 ## Description
-Generalizing models are often unable to produce a personalized prediction for a individual user.
-Personalized methods often yield better results
+Generalizing models are often unable to produce a personalized prediction for an individual 
+user. Personalized methods often yield better results
 but at the cost of an increased training complexity,
 especially in big-data scenarios, when frequent re-training is necessary.
 We propose a __retrieval__ based approach that performs similar to SOTA personalization algorithms,
