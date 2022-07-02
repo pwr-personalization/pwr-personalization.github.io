@@ -95,7 +95,7 @@ The text diversity was measured as a standard deviation of cosine similarity in 
 Individuals with a diversity above 0.5 were considered to be writing diverse tweets.
 
 ### Results
-| ------------------- | Sentiment140 | IMDB   | MHS    |
+|                     | Sentiment140 | IMDB   | MHS    |
 |---------------------|--------------|--------|--------|
 | Baseline            | 85.9.        | 46.7   | 56.3   |
 | UserIdentifier      | *87.9*       | *50.4* | 56.1   |
