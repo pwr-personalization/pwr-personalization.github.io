@@ -8,7 +8,7 @@ The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
 ## A team
-![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.png)
+![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.jpg)
 __Authors__: Michał Kajstura, Joanna Baran
 
 __Mentors__: professor Przemysław Kazienko, PhD. Jan Kocoń
