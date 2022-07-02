@@ -1,11 +1,13 @@
-The present work was carried out as part of a research project during 
-the course of Artificial Intelligence studies at Wroclaw University of Science and Technology. 
+The presented work was carried out as part of a research project during 
+the course of Artificial Intelligence studies at Wrocław University of Science and Technology. 
 The whole project was supported by the ministerial project AI Tech aiming to create an 
 education module for high-quality specialist in the field of AI.
 
 ## Aim
 The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
+The detailed description is included in the article draft available to
+download above.
 
 ## A team
 <p>
