@@ -1,7 +1,3 @@
----
-usemathjax: true
----
-
 The present work was carried out as part of a research project during 
 the course of Artificial Intelligence studies at Wroclaw University of Science and Technology. 
 The whole project was supported by the ministerial project AI Tech aiming to create an 
