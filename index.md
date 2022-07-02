@@ -8,8 +8,10 @@ The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
 ## A team
-![Joanna Photo](docs/assets/images/joanna_photo.png)
-
+<p float="middle">
+  <img src="docs/assets/images/joanna_photo.png" width="150" />
+  <img src="docs/assets/images/joanna_photo.png" width="150" /> 
+</p>
 
 __Authors__: Michał Kajstura, Joanna Baran
 
