@@ -8,9 +8,9 @@ The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
 ## A team
-<p float="middle">
-  <img src="docs/assets/images/joanna_photo.png" width="150" />
-  <img src="docs/assets/images/joanna_photo.png" width="150" /> 
+<p>
+  <img src="docs/assets/images/joanna_photo_cropped.png" width="150" />
+  <img src="docs/assets/images/joanna_photo_cropped.png" width="150" /> 
 </p>
 
 __Authors__: Michał Kajstura, Joanna Baran
@@ -45,15 +45,9 @@ The labels of samples most similar to the current text have the greatest impact 
 Conversely, labels of unrelated texts should be discarded in the aggregation process.
 
 The simplest method of aggregating multiple targets is a weighted arithmetic mean.
-Similarity score $s$ between a pair of texts, play a role of weighting coefficients.
+Similarity score between a pair of texts, play a role of weighting coefficients.
 If, therefore, another text is very similar to the sample being evaluated, it will have a weight close to 1, 
 and the weight of the differing text will be close to 0.
-
-$$s(t_i, T, L) = 
-    \frac{1}{N - 1} 
-    \sum_{n=1}^{N}
-    \1_{n \neq i} \cdot l_n \cdot \text{similarity($t_i$, $t_n$)}
-$$
 
 ## Datasets
 In this work only open-source freely available data was used.
@@ -79,7 +73,7 @@ which focuses on learning user-specific vector representations.
 
 Fine-tuning hyperparameters:
 - AdamW optimizer 
-- learning rate $1e^{-5}$ with linear warmup schedule
+- learning rate 0.00001 with linear warmup schedule
 - batch size 16
 - max sequence length 512 
 - 50000 training steps
@@ -101,7 +95,7 @@ The text diversity was measured as a standard deviation of cosine similarity in 
 Individuals with a diversity above 0.5 were considered to be writing diverse tweets.
 
 ### Results
-|                     | Sentiment140 | IMDB   | MHS    |
+| ------------------- | Sentiment140 | IMDB   | MHS    |
 |---------------------|--------------|--------|--------|
 | Baseline            | 85.9.        | 46.7   | 56.3   |
 | UserIdentifier      | *87.9*       | *50.4* | 56.1   |

@@ -3,3 +3,4 @@ title: PerSent
 description: Personalized sentiment text classification
 
 math_engine: mathjax
+markdown: GFM
