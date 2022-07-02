@@ -1,11 +1,14 @@
-# PerSent 
-Personalized sentiment text classification
+The present work was carried out as part of a research project during 
+the course of Artificial Intelligence studies at Wroclaw University of Science and Technology. 
+The whole project was supported by the ministerial project AI Tech aiming to create an 
+education module for high-quality specialist in the field of AI.
+
 
 __Authors__: Michał Kajstura, Joanna Baran
 
 __Mentors__: professor Przemysław Kazienko, PhD. Jan Kocoń
 
-The project was focused on the scientific view only. 
+
 The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
