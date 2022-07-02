@@ -8,13 +8,15 @@ The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
 ## A team
-![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.jpg)
+![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.png)
+
+
 __Authors__: Michał Kajstura, Joanna Baran
 
 __Mentors__: professor Przemysław Kazienko, PhD. Jan Kocoń
 
 
-## Short description
+## Description
 Generalizing models are often unable to produce a personalized prediction for a individual user.
 Personalized methods often yield better results
 but at the cost of an increased training complexity,
