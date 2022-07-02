@@ -8,7 +8,7 @@ The main aim was to develop a new method to human-centric classification problem
 involving a highly subjective task.
 
 ## A team
-![Joanna Photo](/pwr-personalization.github.io/assets/images/joanna_photo.png)
+![Joanna Photo](docs/assets/images/joanna_photo.png)
 
 
 __Authors__: Michał Kajstura, Joanna Baran
@@ -86,7 +86,7 @@ For the KNN-based aggregation, K was set to 3.
 Experiments were repeated 5 times and the mean F1-score was reported.
 
 In order to analyze the performance of the personalized approach,
-we created __separate subsets__ of the _Sentiment140_ dataset.
+we created *separate subsets* of the _Sentiment140_ dataset.
 The first subset contained only _highly polarized_ users,
 that is, users for whom the fraction of positive or negative tweets was above $70\%$.
 We noticed that for many users, the similarities between texts were almost uniform,
@@ -99,24 +99,24 @@ The text diversity was measured as a standard deviation of cosine similarity in 
 Individuals with a diversity above 0.5 were considered to be writing diverse tweets.
 
 ### Results
-|                     | Sentiment140 | IMDB     | MHS      |
-|---------------------|--------------|----------|----------|
-| Baseline            | 85.9.        | 46.7     | 56.3     |
-| UserIdentifier      | __87.9__     | __50.4__ | 56.1     |
-| Retriever-Mean      | 86.3         | 47.7     | 56.6     |
-| Retriever-Bi        | 87.1         | 48.8     | 56.7     |
-| Retriever-Cross     | 87.7         | 49.4     | __57.2__ |
-| Retriever-Cross-KNN | 87.4         | 49.8     | 56.6     |
+|                     | Sentiment140 | IMDB   | MHS    |
+|---------------------|--------------|--------|--------|
+| Baseline            | 85.9.        | 46.7   | 56.3   |
+| UserIdentifier      | *87.9*       | *50.4* | 56.1   |
+| Retriever-Mean      | 86.3         | 47.7   | 56.6   |
+| Retriever-Bi        | 87.1         | 48.8   | 56.7   |
+| Retriever-Cross     | 87.7         | 49.4   | *57.2* |
+| Retriever-Cross-KNN | 87.4         | 49.8   | 56.6   |
 
 The UserIdentifier outperformed other methods for _Sentiment140_ and _IMDB_ datasets but
 _Retriever-Cross_'s performance is almost the same without the need to re-train for each new user. 
 For the Measuring Hate Speech dataset, UserIdentifier was worse than the standard generalizing RoBERTa model,
 while both Retriever variants performed better.
-A simple __Retriever-Mean__ aggregation method that uses a basic arithmetic mean to calculate the user score,
+A simple *Retriever-Mean* aggregation method that uses a basic arithmetic mean to calculate the user score,
 offered a slight improvement over the baseline, but performed worse than other alternatives.
-__Retriever-Cross__ achieved better results, but at the significantly higher computational cost,
+*Retriever-Cross* achieved better results, but at the significantly higher computational cost,
 because it required performing expensive forward passes through the network for each text pair.
-The __KNN-based__ aggregation performed similarly to the standard weighted average.
+The *KNN-based* aggregation performed similarly to the standard weighted average.
 
 
 | Subset    | Retriever-Mean | Retriever-Cross |
