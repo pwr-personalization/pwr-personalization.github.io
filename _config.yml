@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 title: PerSent
 description: Personalized sentiment text classification
 show_downloads: true
