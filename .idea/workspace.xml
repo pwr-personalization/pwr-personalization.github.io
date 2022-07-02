@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea42929c-7c12-4898-a33b-1e2e88cce4e3" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/rouge-github.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
@@ -37,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656786430586</updated>
-      <workItem from="1656786431762" duration="7781000" />
+      <workItem from="1656786431762" duration="8950000" />
     </task>
     <servers />
   </component>
