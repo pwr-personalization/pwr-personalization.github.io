@@ -6,7 +6,7 @@ show_downloads: true
 math_engine: mathjax
 markdown: GFM
 github:
-  repository_url: https://github.com/pwr-personalization/nlp-sentify
+  repository_url: https://github.com/pwr-personalization/retriever
 
 article: docs/assets/PerSent_project_2022.pdf
 
