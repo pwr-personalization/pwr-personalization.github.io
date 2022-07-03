@@ -11,7 +11,7 @@ download above.
 
 ## A team
 <p>
-  <img src="docs/assets/images/joanna_photo_cropped.png" width="150" />
+  <img src="docs/assets/images/michal_photo_cropped.png" width="150" />
   <img src="docs/assets/images/joanna_photo_cropped.png" width="150" /> 
 </p>
 
