@@ -53,14 +53,14 @@ and the weight of the differing text will be close to 0.
 
 ## Datasets
 In this work only open-source freely available data was used.
-- Sentiment140 - a heuristically annotated dataset of tweets that was collected using a predefined set of queries.
+- [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140) - a heuristically annotated dataset of tweets that was collected using a predefined set of queries.
 The annotations are based on emoticons contained in the texts
 
-- IMDB - a collection of film reviews from the popular IMDB website. 
+- [IMDB](https://drive.google.com/drive/folders/1ceSxER0Og4ITZLZ7OHgmZbtb0nP6pZLS) - a collection of film reviews from the popular IMDB website. 
 The user reviews were divided into training, validation and test in the ratio of 0.8, 0.1, 0.1, 
 meaning that a single user appears in all splits.
 
-- Measuring Hate Speech - dataset that offers multiple dimensions like sentiment analysis, insults,
+- [Measuring Hate Speech](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset) - dataset that offers multiple dimensions like sentiment analysis, insults,
 incitement to violence and hate speech detection.
 We focused on the latter task because it proved difficult for generalizing, or non-personalized, methods.
 
